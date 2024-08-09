@@ -1,1 +1,62 @@
-This application.
+# TechBridge
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAACc1BMVEVHcEwAAAAAAAAAAAAAAAAAAAAAAAAJDAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8+vomLS5/r7bAvr7o5uaUzNR0oKaUzNQAAAC35Ub7+fncSVX/v1Sr1kHYLzxvu8f/pEKWz9et2UL//f266UeWztYCAQHx6ueVzdUBAQAFBAK450bdSVUGBwb/p0P/wVXz7usMBAQJCgj69/cIDA3s5eL/vVM/FBfZNkK25EWw3UMREAbYR1N0oKb9+/t1ViX/wFSz4ETbLz0MDAzFQUz/wlWRydBDQkIMERJmgCen0T/BwMAfCgxEYGSNw8r/qkZNYR0pOj1WeH2naysSFxfCKjb/sks9V1u7uroWHAhpTyMvOxJfHiRuiiogBwjeSlYhLzGYvzoXHR5vmZ+oJC4gJwwdJiegZymgyT3fSlb7u1JMbHFGWBqBoTH28/JkjZOPszaJqzR/r7aJvcR+Xilfg4goMg9OTEssLCxjSR8XBQfs6uq5ij16qK8fFwqpOEFJNhg4NzdWbCDz7OorDhCEtr4uQ0Y4T1LNmkPl4uJdnqdgeCTNRE+RZyx5wMqNi4pslZviqUqFJi1qaWiPLze7Pkg8Sxb0t1BqISczQRXPzMx3ki2dNDwwIQ7TnkWqp6e7KjRZPhpqsrx3HyZBLROfnJxQPBpMFxtydW7b19a4tbTOLjk3RRWzr64zDhFRUFDKgjSodzPbP0zrsE3mlDuAfn5YWFjgSlbBkT9PhY3WPj3/w1a+xUTbpEi35UX0nD+t3W+yhTqsgTjiS1e/jz//xFa8jT5aWCCtggAJAAAAAABHcExVASeiAAAA0XRSTlMAEeUbz+4pB777V3ppnziwh0j1ktyk8V+1qYit////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AFBGSHkAABMSSURB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
+" alt="TechBridge Logo" width="200"/>
+
+## 🌟 About
+
+TechBridge is an innovative application developed as part of the Google Gemini API Competition. It bridges the gap between Chinese and English tech news by translating, summarizing, and analyzing Chinese tech news articles. Users are notified of the latest updates through a Google Chrome extension and a Telegram Channel.
+
+## 🚀 Features
+
+- Translates Chinese tech news to English
+- Summarizes articles for quick consumption
+- Analyzes news for relevance and importance
+- Notifies users via Chrome extension and Telegram
+
+## 🛠 How to Use
+
+1. **Google Chrome Extension**: 
+   Download and install from [here](https://github.com/UladzKha/chinese-news-GC-extension/tree/main)
+
+2. **Telegram Channel**: 
+   Subscribe to our channel: [AI Chinese Tech News](https://t.me/ai_chinese_tech_news)
+
+3. **Website**: 
+   Visit [TechBridge Website](https://chinese-news-website.vercel.app/)
+
+## 🏗 Project Structure
+
+TechBridge consists of four main components:
+
+1. **Google Chrome Extension**: 
+   [Repository](https://github.com/UladzKha/chinese-news-GC-extension)
+
+2. **Website**: 
+   [Repository](https://github.com/UladzKha/chinese-news-website)
+
+3. **WebSocket Server**: 
+   Checks for new news in the database and notifies users
+   [Repository](https://github.com/UladzKha/chinese-news-websocket)
+
+4. **RSS Listener and Gemini API Analyzer**: 
+   [Repository](https://github.com/UladzKha/chinese_rss_backend)
+
+## 🤖 Technology Stack
+
+- Google Gemini API
+- Chrome Extension API
+- Telegram Bot API
+- WebSocket
+- RSS Feed Parsing
+
+## 🙌 Contributing
+
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for more details.
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## 🙏 Acknowledgements
+
+Special thanks to Google for providing the Gemini API, which powers the core functionality of TechBridge.
